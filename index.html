@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Ebi Akangbou">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Frontend Mentor | Interactive comments section</title>
+    <style>
+        .attribution { font-size: 11px; text-align: center; }
+        .attribution a { color: hsl(228, 45%, 44%); }
+      </style>
+</head>
+<body>
+    <header>
+        <button type="button"><img  id="btn"  src="images/icon-menu.svg" alt="menu" width="16" height="15"></button>
+        <h1><img src="images/logo.svg" alt="company name" width="138" height="20"></h1>
+        <section class="hero">
+          <h2 class="offscreen">logo</h2>
+          <figure class="hero__figure">
+          <img id="img" src="images/icon-cart.svg" alt="chart" width="22" height="20">
+          <figcaption id="figcaption">chart</figcaption>
+        </figure>
+        <figure class="hero__figure1">
+          <img src="images/image-avatar.png" alt="avatar" width="100" height="100">
+          <figcaption class="offscreen">avatar</figcaption>
+        </figure>
+        </section>
+        <nav title="primary naviation" class="header__nav">
+            <figure>
+                <img id="cross" src="images/icon-close.svg" alt="close" width="14" height="15">
+                <figcaption class="offscreen">close</figcaption>
+              </figure>
+            <ul>
+              <li>
+              <div id="div"></div>
+              </li>
+                <li><a href="#" class="hover">Collections</a></li>
+                <li><a href="#" class="hover">Men</a></li>
+                <li><a href="#" class="hover">Women</a></li>
+                <li><a href="#" class="hover">About</a></li>
+                <li><a href="#" class="hover">Contact</a></li>
+                <li><div class="hr"><hr></div></li>
+             </ul>
+          
+        </nav>
+        
+      
+      </header>
+      <main>
+        <div class="desktop__div">
+          <hr class="line">                
+          <hr class="line">                
+           <hr class="line">                                           
+          <hr class="line">                                           
+          <hr class="line">                                           
+    </div>
+      <article class="article0">
+        <h2 class="offscreen">logo</h2>
+      
+      <div class="countainer">
+        <img class="slide_image" src="images/image-product-1.jpg" alt="slide image" width="1000" height="1000">
+        <div>
+          <section class="countainer__section">
+            <h3>Cart</h3>
+          <hr>
+          <p id="empty"></p>
+          <div class="displayNone">
+            <aside>
+              <img class="span__img" src="images/image-product-1-thumbnail.jpg" alt="product" width="176" height="176">
+            </aside>
+            <aside class="nowrap">
+              <p id="spanP">Fall Limited Edition Sneakers</p>
+            </aside>
+            
+            <aside>
+              <img id="delete" src="images/icon-delete.svg" alt="icon-delete" width="14" height="16">
+            </aside>
+          </div>
+          <div class="displayNone cart_div" >
+          <aside>
+          <p class="nowrap">$125.00 x </p>
+        </aside>
+          <aside>
+          <p id="p"></p>
+        </aside>
+          <aside>
+          <p id="p1"></p>
+        </aside>
+      </div>
+          <button class="displayNone checkout" type="submit">Checkout</button >
+        </section>
+
+        </div>
+     
+        <div class="countainer__div">
+          <div class="previous">
+          <img src="images/icon-previous.svg" alt="previous_icon" width="12" height="18">
+        </div>
+        <div class="next">
+          <img src="images/icon-next.svg" alt="icon-next" width="13" height="18">
+        </div>
+        </div>
+        <div class="article__div">
+        <div>
+          <img class="slide" src="images/image-product-1-thumbnail.jpg" alt="product-1" width="176" height="176">
+        </div>
+        <div >
+          <img class="slide" src="images/image-product-2-thumbnail.jpg" alt="product-2" width="176" height="176">
+        </div>
+        <div >
+          <img class="slide" src="images/image-product-3-thumbnail.jpg" alt="product-2" width="176" height="176">
+        </div>
+        <div >
+          <img class="slide" src="images/image-product-4-thumbnail.jpg" alt="product-4" width="176" height="176">
+        </div>
+      </div>
+      </div>
+    </article>
+        <article class="article">
+          <h2>Sneaker Company</h2>
+          <strong>Fall Limited Edition Sneakers</strong>
+          <p> These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+            <div>
+            <p class="article__p">$125.00</p>
+            <p class="article__p1">50%</p>
+            <p class="article__p2">$250.00</p>
+          </div>
+          <p class="hidden">$250.00</p>
+          <div class="div1">
+            <button class="btn"><img src="images/icon-minus.svg" alt="icon-minus" width="12" height="4"></button>
+            <button id="num">0</button>
+            <button class="article__btn"><img src="images/icon-plus.svg" alt="icon-plus" width="12" height="12"></button>
+          </div>
+          <button class="article__btn1 nowrap"><img src="images/icon-cartbtn.svg" alt="icon-cartbtn" width="22" height="20"> Add to cart</button>
+          </article>  
+  
+</main>
+<footer class="footer">
+  <div class="overlay"></div>
+  <div class="countainer footer_div">
+    <img class="slide_imageOverlay" src="images/image-product-1.jpg" alt="slide image" width="1000" height="1000">
+  
+  <div class="countainer__div">
+    <div><img class="countainer__divImg" src="images/icon-close.svg" alt="icon-close" width="14" height="15"></div>
+    <div id="previous">
+    <img src="images/icon-previous.svg" alt="previous_icon" width="12" height="18">
+  </div>
+  <div id="next">
+    <img src="images/icon-next.svg" alt="icon-next" width="13" height="18">
+  </div>
+  </div>
+  <div class="article__div">
+  <div>
+    <img class="slide_img" src="images/image-product-1-thumbnail.jpg" alt="product-1" width="176" height="176">
+  </div>
+  <div >
+    <img class="slide_img" src="images/image-product-2-thumbnail.jpg" alt="product-2" width="176" height="176">
+  </div>
+  <div >
+    <img class="slide_img" src="images/image-product-3-thumbnail.jpg" alt="product-2" width="176" height="176">
+  </div>
+  <div >
+    <img class="slide_img" src="images/image-product-4-thumbnail.jpg" alt="product-4" width="176" height="176">
+  </div>
+</div>
+</div>
+</footer>
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/Ebi-Akangbou">Ebi Akangbou</a>.
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
