@@ -20,8 +20,8 @@ Check the folder screenshot for both mobile and desktop view.
 
 ### Links
 
-- Solution URL: [solution URL here](https://github.com/Ebi-Akangbou/ecommerce-product-page)
-- Live Site URL: [live site URL here](https://interactive-card-details-form-main/)
+- Solution URL: [solution URL here](https://github.com/Ebi-Akangbou/interactive-card-details-form)
+- Live Site URL: [live site URL here](https://ebi-akangbou.github.io/interactive-card-details-form/)
 
 ## My process
 
